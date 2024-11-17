@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Arithmetic Operations</title>
+</head>
+<body>
+    <h1 id="header"></h1>
+    <p id="addition"></p>
+    <p id="subtraction"></p>
+    <p id="multiplication"></p>
+    <p id="division"></p>
+    <p id="modulus"></p>
+    <p id="exponentiation"></p>
+
+    <script>
+        // Arithmetic operations
+        var a = 25;
+        var b = 5;
+
+        var addition = a + b;
+        var subtraction = a - b;
+        var multiplication = a * b;
+        var division = a / b;
+        var exponentiation = a ** b;
+
+        // Display results on the webpage
+        document.getElementById("header").innerHTML = "JavaScript Arithmetic Operations";
+        document.getElementById("addition").innerHTML = "Addition (a + b): " + addition;
+        document.getElementById("subtraction").innerHTML = "Subtraction (a - b): " + subtraction;
+        document.getElementById("multiplication").innerHTML = "Multiplication (a * b): " + multiplication;
+        document.getElementById("division").innerHTML = "Division (a / b): " + division;
+        document.getElementById("exponentiation").innerHTML = "Exponentiation (a ** b): " + exponentiation;
+    </script>
+</body>
+</html>
